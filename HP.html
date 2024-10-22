@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Gabriel's portfolio-->
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!--The header-->
+    <header>
+      <!--Navigation bar-->
+      <nav>
+        <!--Nav logo-->
+        <img src="FMP.jpg" alt="Engr Gabriel" height="180px" width="135px" />
+        <!--Navigation links-->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <!--Nav bar ends here-->
+    </header>
+
+    <main>
+      <section id="about">
+        <!--About the author-->
+        <h1>About me</h1>
+        <p>
+          I'm an aspiring Web developer who likes to create visually appealing
+          and functional websites
+        </p>
+        <!--Added a video to the webpage-->
+        <p>
+          <video
+            src="SV.mp4"
+            controls
+            type="mp4/video"
+            width="400"
+            height="200"
+          ></video>
+        </p>
+      </section>
+
+      <section id="work">
+        <!--My Previous works-->
+        <h2>My Work</h2>
+        <ul>
+          <li><a href="MyFirstProject">My first upload to Github</a></li>
+          <li><a href="MySecondProject">My first HTML Project</a></li>
+          <li><a href="MyThirdProject">My first CSS project</a></li>
+          <li><a href="MyFourthProject">My first e-commerce application</a></li>
+        </ul>
+      </section>
+      <!--My resume-->
+      <section id="resume">
+        <h3>My Resume</h3>
+        <table border="3px">
+          <tr>
+            <th>Year</th>
+            <th>Role</th>
+            <th>Company</th>
+          </tr>
+          <tr>
+            <td>2024</td>
+            <td>Software Developer</td>
+            <td>GoMyCode</td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>Intern</td>
+            <td>NNPC Enserv</td>
+          </tr>
+        </table>
+      </section>
+      <!--Resume ends-->
+      <section id="Contact">
+        <!--Contact form-->
+        <h4>Contact me</h4>
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              type="message"
+              id="message"
+              name="message"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Send Message" />
+          </div>
+        </form>
+        <!--contact form ends here-->
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
