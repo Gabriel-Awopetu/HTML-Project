@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  background: url(pic/Line\ \ White\ Background\ \ Business\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.navbar {
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 85em;
+}
+.navbar .logo {
+  width: 160px;
+  cursor: pointer;
+  margin-top: 0%;
+  margin-left: -2%;
+  margin-bottom: 0%;
+  border: 0;
+}
+.logo {
+  border-radius: 1rem;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: darkslategray;
+  margin-top: -3;
+  font-family: "Roboto", sans-serif;
+}
+ul li a:hover {
+  color: rgb(230, 104, 50);
+}
+.info {
+  margin-left: 6%;
+  margin-top: 6%;
+}
+.info h1 {
+  font-size: 65px;
+  color: rgb(34, 7, 7);
+}
+.info h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.info span {
+  color: rgb(230, 104, 50);
+}
+.info a {
+  text-decoration: none;
+  color: #fff;
+  background: rgb(34, 32, 30);
+  margin: 26px 0;
+  padding: 10px 280px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.info a:hover {
+  background: rgb(59, 174, 209);
+  transition: 1.2s;
+}
+.image {
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+}
+.image img {
+  position: absolute;
+  left: 40px;
+  transform: translate(-55%);
+  bottom: 0;
+  transition: left 2s;
+}
+.image:hover .Gabriel {
+  left: 55%;
+}
+
+.icons {
+  max-width: 88em;
+  margin-inline: auto;
+  /* padding: 2rem; */
+  /* margin-top: 0rem; */
+  /* margin-inline: auto;
+  max-width: 86em; */
+}
+.icons a {
+  font-size: 40px;
+  color: black;
+  transition: 1.2s ease;
+  /* margin-inline: auto; */
+  /* padding-left: 30px; */
+  max-width: 88em;
+}
+.icons a:hover {
+  color: rgb(54, 174, 209);
+}
+.info {
+  max-width: 88em;
+  margin-inline: auto;
+  padding: 1rem;
+  margin-top: 0rem;
+}
